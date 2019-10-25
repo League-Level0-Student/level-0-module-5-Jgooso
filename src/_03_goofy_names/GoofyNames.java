@@ -23,6 +23,8 @@ public class GoofyNames {
 			nam = name.substring(i,i+1);
 			if((i+1)%2 ==0) {
 			nam = nam.toUpperCase();
+			}else {
+				nam = nam.toLowerCase();
 			}
 			goofyName = goofyName + nam;
 			
